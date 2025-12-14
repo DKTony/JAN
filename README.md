@@ -50,4 +50,4 @@ For detailed technical documentation, architecture diagrams, and development gui
 - **Lucide Icons**
 
 ## License
-Private / Proprietary
+MIT License - see [LICENSE](./LICENSE) for details.
