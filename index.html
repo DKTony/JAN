@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAN - Just Another Neuralnet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        /* CORE PALETTE EXTRACTED FROM PROMPT */
+        --c-bacPri: #191919;
+        --c-bacSec: #202020;
+        --c-bacTer: #30302e;
+        --c-bacEle: #202020;
+        --c-bacAccPri: #30302e;
+        
+        --c-texPri: #f0efed;
+        --c-texSec: #ada9a3;
+        --c-texTer: #7d7a75;
+        --c-texDis: #494846;
+        
+        --c-borPri: #30302e;
+        --c-borSec: #2c2c2b;
+        --c-borStr: #5f5e59;
+
+        --c-bluTexAccPri: #2783de;
+        --c-bluBacAccSec: #5e9fe8;
+        
+        --c-graBacTer: #5f5e59;
+        
+        --c-shaSM: 0 0 0 1px #30302e,0px 4px 12px -2px #00000029;
+        --c-shaMD: 0 0 0 1px #30302e,0px 14px 28px -6px #0003,0px 2px 4px -1px #0000001f;
+        --c-shaLG: 0 0 0 1px #30302e,0px 24px 48px -8px #0000007a,0px 4px 12px -1px #0000003d;
+        
+        --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif;
+      }
+
+      body {
+        background-color: #000; /* Deep black background for video contrast */
+        color: var(--c-texPri);
+        font-family: var(--font-sans);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--c-borStr);
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--c-texTer);
+      }
+
+      /* Utility class for the specific glass/blur effects mentioned */
+      .glass-panel {
+        background: rgba(32, 32, 32, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid var(--c-borPri);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "eventemitter3": "https://aistudiocdn.com/eventemitter3@^5.0.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

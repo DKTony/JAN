@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Screen Overlay Agent",
+  "description": "A screen sharing application with an integrated Gemini-powered AI assistant that allows for analyzing screen content and conversational interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
