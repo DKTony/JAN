@@ -26,6 +26,7 @@ This file (`docs/context.md`) is the **primary entrypoint** for new engineers. F
 - [Knowledge Base (RAG) Design](./rag-knowledge-base.md) – File Search, document lifecycle
 - [UI and Interaction Guide](./ui-and-interaction.md) – ChatWidget, navigation, controls
 - [Handover Runbook](./handover-runbook.md) – Operations, troubleshooting, extending
+- [Deployment](./deployment.md) – GitHub/Netlify deployment details, env vars, rollback
 - [Technical Debt & Roadmap](./technical-debt-roadmap.md) – Gaps, improvements, feature proposals
 
 ## 3. System Architecture

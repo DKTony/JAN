@@ -3,6 +3,7 @@
 This runbook is intended for engineers taking ownership of the **JAN (Just Another Neuralnet)** project. It summarizes how to run, operate, and extend the system.
 
 For architectural and implementation detail, start with [context.md](./context.md) and the linked documents in this folder.
+For deployment details (GitHub + Netlify), see [deployment.md](./deployment.md).
 
 ## 1. Environment & Setup
 
